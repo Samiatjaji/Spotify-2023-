@@ -1,12 +1,13 @@
+SPOTIFY 2023 REPORT
 ![image](https://github.com/user-attachments/assets/e6cac69a-3b81-4ba8-96bc-9d8854638780)# Spotify-2023-
-Uploading image.png…]()
+
 
 Spotify is an audio streaming and media service provider owned by Daniel Ek and Martin Lorentzon since 2006 and listed through a holding company, Spotify Technology S.A on the NewYork Stock Exchange in the form of American depositary receipts.
 Spotify offers digital copyright restricted recorded audio content including more than 100 million songs and 6 million podcast titles from record labels and media companies.
 
 # Introduction 
 This dataset was downloaded from kaggle and as a Spotify user myself,  I decided to make more sense of the dataset by cleaning and visualizing it. The aim objective of this project is to show my data visualisation skills in PowerBI.
-Dataset here
+Dataset [here](
 
 # Data Analysis Process
 A series of steps must be carried out to interpret this information. Finding these procedure is crucial because each step is important in ensuring that the data is processed correctly to provide relevant and useful information. The steps I did in this process are listed below:
@@ -26,17 +27,14 @@ This analysis will focus on
 
 ## Data Cleaning and Transformation 
 This data was thoroughly cleaned and transformed with Power Query Editor in PowerBI. The dataset contains columns and 4 rows and it was cleaned. The track_name data type was changed to text only had and removed errors in Streams column. In the key column, null values were replaced with "none" because it's a text data type. creating new columns from existing columns. The in_shazam_charts column had null values and was replaced with zero because it's a numerical type. A new date column was then created from released year, month and date in the format mm/dd/yyyy and I deleted the three existing columns.
-PICTURE
-
 I created a date table using DAX from the date column named "Calender" and sorted the MonthName and Day name so it will be in a  chronological order when used for visuals.
-PICTURE
-
+![Calender](https://github.com/user-attachments/assets/98ee2cf5-862d-4f77-bbe2-b766000a434b)
 Then in the model view, I joined the date column in the Spotify dataset to the date in the calender table which is a one to many relationship.
-PICTURE 
+ ![Model](https://github.com/user-attachments/assets/fdb0005c-beeb-41ac-b670-ba51cee02851)
 
 ## Dashboard Structure and Design in PowerPoint
-This was made by creating text boxes, using the right colour and gradient, and importing images and color. After that, I grouped and saved as a picture.
-PICTURE 
+This was made by creating text boxes, using the right colour and gradient, and importing images and color. After that, I grouped and saved as a picture. 
+[spot.pptx](https://github.com/user-attachments/files/18350449/spot.pptx)
 
 ## Data visualisation and Dashboard creation with PowerBI new visuals
 
