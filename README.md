@@ -1,12 +1,12 @@
-# Spotify-2023-
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/e6cac69a-3b81-4ba8-96bc-9d8854638780)# Spotify-2023-
+Uploading image.png…]()
 
 Spotify is an audio streaming and media service provider owned by Daniel Ek and Martin Lorentzon since 2006 and listed through a holding company, Spotify Technology S.A on the NewYork Stock Exchange in the form of American depositary receipts.
 Spotify offers digital copyright restricted recorded audio content including more than 100 million songs and 6 million podcast titles from record labels and media companies.
 
 # Introduction 
 This dataset was downloaded from kaggle and as a Spotify user myself,  I decided to make more sense of the dataset by cleaning and visualizing it. The aim objective of this project is to show my data visualisation skills in PowerBI.
-Dataset herePICTURE
+Dataset here
 
 # Data Analysis Process
 A series of steps must be carried out to interpret this information. Finding these procedure is crucial because each step is important in ensuring that the data is processed correctly to provide relevant and useful information. The steps I did in this process are listed below:
