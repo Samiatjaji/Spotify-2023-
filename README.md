@@ -1,5 +1,6 @@
 # Spotify-2023-
-(https://github.com/Samiatjaji/Spotify-2023-/blob/main/GettyImages-1458871255-e1728381206417.webp)
+![Uploading image.png…]()
+
 Spotify is an audio streaming and media service provider owned by Daniel Ek and Martin Lorentzon since 2006 and listed through a holding company, Spotify Technology S.A on the NewYork Stock Exchange in the form of American depositary receipts.
 Spotify offers digital copyright restricted recorded audio content including more than 100 million songs and 6 million podcast titles from record labels and media companies.
 
