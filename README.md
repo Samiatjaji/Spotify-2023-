@@ -7,7 +7,7 @@ Spotify offers digital copyright restricted recorded audio content including mor
 
 # Introduction 
 This dataset was downloaded from kaggle and as a Spotify user myself,  I decided to make more sense of the dataset by cleaning and visualizing it. The aim objective of this project is to show my data visualisation skills in PowerBI.
-Dataset [here](
+Dataset [here](https://github.com/Samiatjaji/Spotify-2023-/blob/main/Onyx%20Data%20DataDNA%20Datatset%20Challenge%20-%20Spotify%20Most%20Streamed%20Songs%202023%20Dataset%20-%20October%202023.zip)
 
 # Data Analysis Process
 A series of steps must be carried out to interpret this information. Finding these procedure is crucial because each step is important in ensuring that the data is processed correctly to provide relevant and useful information. The steps I did in this process are listed below:
@@ -36,12 +36,15 @@ Then in the model view, I joined the date column in the Spotify dataset to the d
 
 ## Dashboard Structure and Design in PowerPoint
 This was made by creating text boxes, using the right colour and gradient, and importing images and color. After that, I grouped and saved as a picture. 
-[spot.pptx](https://github.com/user-attachments/files/18350449/spot.pptx)
+![powerpoint](https://github.com/user-attachments/assets/8f7b9e51-84da-41e3-b793-dfea20e75b65)
+
 
 ## Data visualisation and Dashboard creation with PowerBI new visuals
 
 For the visualisation, I imported the picture to PowerBI and used it as a dashboard to display my findings and communicate the analysis.
-This report contains a single page. You can interact with the report here '''''''
+This report contains a single page. You can interact with the report here
+![Spotify Dashboard](https://github.com/user-attachments/assets/a59fb264-0785-493e-9c64-558a41691268)
+
 
 
 ## Analysis and Insights
