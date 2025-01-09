@@ -20,10 +20,10 @@ A series of steps must be carried out to interpret this information. Finding the
 
 ## Objectives
 This analysis will focus on
-- g
--
--
--
+- The total number of tracks and streams
+- The streams by date
+- The most streamed artist and music info
+- Top 5 most Streamed songs 
 
 ## Data Cleaning and Transformation 
 This data was thoroughly cleaned and transformed with Power Query Editor in PowerBI. The dataset contains columns and 4 rows and it was cleaned. The track_name data type was changed to text only had and removed errors in Streams column. In the key column, null values were replaced with "none" because it's a text data type. creating new columns from existing columns. The in_shazam_charts column had null values and was replaced with zero because it's a numerical type. A new date column was then created from released year, month and date in the format mm/dd/yyyy and I deleted the three existing columns.
@@ -51,6 +51,7 @@ This report contains a single page. You can interact with the report here
 
 ## Analysis and Insights
 - KPIs
+
 At the top, key performance indicators (KPIs) such as total streams, tracks and average streams are displayed.
 The total Streams from 1930 to 2023 is 489 billion with the number of tracks on the streaming platform 952 and average streams per tracks being 514M.
 
@@ -58,31 +59,36 @@ The total Streams from 1930 to 2023 is 489 billion with the number of tracks on 
 
 
 - Streams by date
+
 The trend shows a noticeable increase in streams in the 20s compared to the 19s. This indicates the widely use technology and innovation which wasn't well used in the earlier years. Nowadays people are more creative in the music/media industry
 
 ![Stream date](https://github.com/user-attachments/assets/77a82460-bafd-498e-8493-f72ecc7d07ac)
 
 
 - Tracks and Streams by Month
+
 I used a table visual to compare the tracks and streams by each month. January produced the most tracks (133) with average number of streams (727.51M). However September had the most average streams (734.64M) while having produced low tracks (56) when compared to january and even May (126) tracks.
 
 ![Track Month](https://github.com/user-attachments/assets/d906c8e5-ce0a-4bee-a260-7b617ae3a7cf)
 
 
 - Daily Streams for all tracks
+
 Friday has the highest day stream for all tracks, followed by Thursday. This indicates that most listeners prefer to stream on Fridays.
 
 ![Day Streams](https://github.com/user-attachments/assets/d4507e63-e0b6-4e52-bff5-95e944b242b7)
 
 
 - Artist Most Streamed tracks
+
 I used the new slicer visual to display the Top 1 streamed tracks and added the artist name. I also used a multi-row card to display the Top 1 track name, release date, number of streams, rows and key.
 The Most Streamed track is Blinding lights, a song by the Weeknd with more than 3.7B streams. A new visual card also showed the music info of the Top 1 track.
 
 ![Most streamed](https://github.com/user-attachments/assets/2de35c09-e3fc-440f-8406-937100842e47)
 
 
-- Top 5 Most Streamed tracks 
+- Top 5 Most Streamed tracks
+
 It is evident now that the most streamed track is Blinding lights but we also have the question of what comes next after it and by how many number of streams. Shape of your by Ed Sheeran is the 2nd most streamed track (3.6B), followed by Someone you loved (2.9B), Dance  Monkey (2.9B) and Sunflower (2.8B). It's observed that these songs have been topping the charts for years long before Blinding lights was produced.
 
  ![Top5](https://github.com/user-attachments/assets/fc406954-24ab-414d-9933-7d408d7b1530)
