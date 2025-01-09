@@ -26,7 +26,7 @@ This analysis will focus on
 - Top 5 most Streamed songs 
 
 ## Data Cleaning and Transformation 
-This data was thoroughly cleaned and transformed with Power Query Editor in PowerBI. The dataset contains columns and 4 rows and it was cleaned. The track_name data type was changed to text only had and removed errors in Streams column. In the key column, null values were replaced with "none" because it's a text data type. creating new columns from existing columns. The in_shazam_charts column had null values and was replaced with zero because it's a numerical type. A new date column was then created from released year, month and date in the format mm/dd/yyyy and I deleted the three existing columns.
+This data was thoroughly cleaned and transformed with Power Query Editor in PowerBI. The dataset contains 25 columns and 954 rows and it was cleaned. The track_name data type was changed to text only had and removed errors in Streams column. In the key column, null values were replaced with "none" because it's a text data type. creating new columns from existing columns. The in_shazam_charts column had null values and was replaced with zero because it's a numerical type. A new date column was then created from released year, month and date in the format mm/dd/yyyy and I deleted the three existing columns.
 I created a date table using DAX from the date column named "Calender" and sorted the MonthName and Day name so it will be in a  chronological order when used for visuals.
 ![Calender](https://github.com/user-attachments/assets/98ee2cf5-862d-4f77-bbe2-b766000a434b)
 
